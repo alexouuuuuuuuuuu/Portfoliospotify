@@ -1,4 +1,3 @@
-import { Play, Heart } from 'lucide-react';
 import { motion } from 'motion/react';
 
 interface PlaylistHeaderProps {
@@ -6,11 +5,10 @@ interface PlaylistHeaderProps {
   description: string;
   coverGradient: string;
   projectCount: number;
-  onPlayAll: () => void;
 }
 
 
-export function PlaylistHeader({ title, description, coverGradient, projectCount, onPlayAll }: PlaylistHeaderProps) {
+export function PlaylistHeader({ title, description, coverGradient, projectCount }: PlaylistHeaderProps) {
   return (
     <div 
       className="relative h-80 mb-6 rounded-lg overflow-hidden"
