@@ -9,6 +9,7 @@ interface PlaylistHeaderProps {
   onPlayAll: () => void;
 }
 
+
 export function PlaylistHeader({ title, description, coverGradient, projectCount, onPlayAll }: PlaylistHeaderProps) {
   return (
     <div 
