@@ -4,6 +4,9 @@
   import path from 'path';
 
   export default defineConfig({
+    // base path required when deploying to GitHub Pages under a repo
+    // replace '/Portfoliospotify/' with '/' if you deploy to a user/organization site
+    base: '/Portfoliospotify/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
